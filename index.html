@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harmanpreet | Portfolio</title>
+  <link rel="stylesheet" href="style.css" /> <!-- Link your CSS here -->
+</head>
+<body>
+    
+    <div id="intro-screen">
+        <div class="intro-content">
+            
+        <h1><strong>If you learn to learn, you'll learn.</strong></h1>
+        <div class="hello-wrapper">
+            <img src="cloud.jpg" alt="Cloud Computing" class="side-image left-image" />
+            <h2><span class="wave"></span>Hello👋</h2>
+            <img src="python.jpg" alt="Python Logo" class="side-image right-image" />
+    </div>
+            <p class="welcome">Welcome to my portfolio.</p>
+          
+          <p class="name">My name is <span class="purple">Harmanpreet</span>
+          </strong> — let's connect!</p>
+          
+          <span id="element"></span>
+          <p class="hobby">Outside the digital world, I love horse riding 🐎 — it's my favorite way to disconnect, recharge, and reconnect with nature.</p>
+          <button onclick="hideIntro()">Step Inside</button>
+        </div>
+      </div>
+      
+  <header>
+    <h1>Harmanpreet</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('education')">Education</a></li>
+        <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+        <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+        <li><a href="#" onclick="showSection('experience')">Experience</a></li>
+        <li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">Switch to Dark Mode</button>
+  </header>
+
+  <main>
+    <section id="about" class="content-section active">
+      <h2>About Me</h2>
+      <p>I am a graduate student currently pursuing a Master’s degree in Computer Science at the University of Texas at Arlington. My academic focus and professional interests lie in the areas of Artificial Intelligence, Machine Learning, and Cloud Computing, with particular experience in platforms such as Amazon Web Services (AWS).</p>
+
+      <p>In addition to my academic coursework, I have worked on a variety of projects that have allowed me to apply theoretical knowledge to real-world problems and strengthen my technical skills. These projects, which span multiple domains within computer science, reflect my ability to think critically, work collaboratively, and develop practical solutions.</p>
+        
+    <p>I am continuously seeking opportunities to grow as a technologist and contribute meaningfully to innovative and forward-thinking initiatives.</p>
+    </section>
+
+    <section id="education" class="content-section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>University of Texas at Arlington, USA</strong><br>Masters of Computer Science (Expected May 2027)</li>
+        <li><strong>Chandigarh University, Punjab, India</strong><br>Bachelor of Engineering; Major in Computer Science (Aug 2020 – June 2024)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="content-section">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong style="text-decoration: underline;"> Tools & Technologies :</strong> AWS (EC2, S3, RDS), Ubuntu, Linux, AWS CLI, IAM, Git, GitHub Actions (CI/CD)</li>
+        <li><strong style="text-decoration: underline;" >Data & visualization Tools :</strong> Tableau, Microsoft Power BI, Excel, R Studio, Weka  </li>
+        <li><strong style="text-decoration: underline;">Interpersonal Skills :</strong> Team collaboration, Time management, Communication, Attention to detail, Leadership</li>
+        <li><strong style="text-decoration: underline;">Databases :</strong> MySQL, PostgreSQL, MongoDB</li>
+        <li><strong style="text-decoration: underline;">Languages :</strong> Python, Java, C++, SQL</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="content-section">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong style="text-decoration: underline;">8-Puzzle Solver using AI Search Algorithms</strong><br />
+            • Created an AI agent to solve the 8-puzzle problem using Uniform Cost Search, A*, and Greedy Best-First Search.<br />
+            • Implemented heuristics such as Manhattan Distance for efficient pathfinding. 
+            </li>
+          <li>
+              <strong style="text-decoration: underline;">Red-Blue Nim Game Agent</strong><br />
+              • Designed an AI agent to play standard and misère variants of the red-blue nim game.<br />
+              • Applied adversarial search strategies for optimal decision-making against human players.
+          </li>
+          <li>
+            <strong style="text-decoration: underline;">Bayesian Inference & k-Nearest Neighbor Classifier</strong><br />
+            • Implemented Bayesian inference to compute posterior probabilities and predict outcomes.<br />
+            • Developed a k-NN classifier for data categorization based on feature similarity.
+          </li>
+          <li>
+            <strong style="text-decoration: underline;">Recommender System for E-commerce Platform</strong><br />
+            • Analyzed user behavior, preferences, and interactions to suggest relevant products, achieving 85% accuracy in predictions.<br />
+            • Involves analyzing user behavior, preferences, and interactions to suggest items that are likely to be of interest to that individual.
+          </li>
+          <li>
+            <strong style="text-decoration: underline;">Food Ordering Chatbot powered by AI</strong><br />
+            • Enables seamless user interaction for placing and customizing orders using Python and AI techniques.<br />
+            • Integrated NLP to improve user interaction and ensure precise order handling.
+        </li>
+        <li>
+          <strong style="text-decoration: underline;">Search Algorithm Visualizer</strong><br />
+          • Developed a GUI application to visualize different search algorithms (like BFS, DFS, A*) to aid learning and comparison.<br />
+          • Built using Python and graphical libraries for enhanced interactivity and educational insight.
+        </li>
+      </ul>
+      </section>
+
+    <section id="experience" class="content-section">
+        <h2>Experience & Volunteering</h2>
+        <h3>Volunteer Program Manager, Educator & Event Coordinator</h3>
+    <p><strong style="text-decoration: underline;">Sikh Community of North Dallas, Texas</strong> — 2022 – Present</p>
+    <ul>
+      <li>Led and managed large-scale programs and cultural events, ensuring smooth logistics and successful execution.</li>
+      <li>Coordinated food preparation and distribution for community gatherings, overseeing volunteers and managing resources efficiently.</li>
+      <li>Designed and delivered educational programs for youth and students, promoting cultural understanding and active engagement.</li>
+      <li>Collaborated with cross-functional teams across age groups and backgrounds, demonstrating strong leadership, communication, and problem-solving skills.</li>
+    </ul>
+
+    <h3>Mental Health Awareness Volunteer</h3>
+    <p><strong style="text-decoration: underline;">Fresh Check Day – Spring 2025, University of Texas at Arlington</strong> — March 2025</p>
+    <ul>
+      <li>Volunteered at UTA's Fresh Check Day, a campus-wide mental health awareness event promoting student well-being and resilience.</li>
+      <li>Assisted with event logistics, student engagement, and interactive activities to support mental health education and outreach.</li>
+      <li>Collaborated with university staff and fellow volunteers to foster a supportive and inclusive environment for all Mavericks.</li>
+      <li>Contributed to increasing awareness of mental health resources available to the UTA community.</li>
+    </ul>
+  </section>
+
+    <section id="certifications" class="content-section">
+      <h2>Certifications & Achievements</h2>
+      <ul>
+        <li><span class="highlight">Data Mining</span> – NPTEL | IIT Kharagpur (Jan 2023 - Mar 2023)</li>
+        <li><span class="highlight">Software Testing</span> – NPTEL | IIIT Bangalore (Jul 2022 - Oct 2022)</li>
+        <li><span class="highlight">Trinetra</span> – (Talk on cybersecurity)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p style="text-decoration: underline;">Email: harmanrathour001@gmail.com</p>
+      <p style="text-decoration: underline;">LinkedIn: <a href="https://www.linkedin.com/in/harmanpreet-kaur-2341731b2" target="_blank">Harmanpreet Kaur</a></p>
+    <p style="text-decoration: underline;">GitHub: <a href="https://github.com/Harman-2" target="_blank">Harman 2</a></p>
+    </section>
+  </main>
+
+  <footer>
+  <p>Contact: <a href="harmanrathour001@gmail.com">harmanrathour001@gmail.com</a></p>
+  <p>
+    <a href="https://www.linkedin.com/in/harmanpreet-kaur-2341731b2" target="_blank">LinkedIn </a> |
+    <a href="https://github.com/harmanpreetkaur" target="_blank">GitHub</a>
+  </p>
+</footer>
+<script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      
+      // Update button text
+      if (document.body.classList.contains('dark-mode')) {
+        toggleBtn.textContent = 'Switch to Light Mode';
+      } else {
+        toggleBtn.textContent = 'Switch to Dark Mode';
+      }
+    });
+  </script>
+<script>
+    function hideIntro() {
+      const intro = document.getElementById('intro-screen');
+      intro.style.display = 'none';
+    }
+  
+    // Optional: Auto-hide after 3 seconds
+    // setTimeout(hideIntro, 3000);
+  </script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['MSCS Student at UTA','Deep learner','AI+Cloud Tech(AWS)','Merging cloud and intelligence.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    function showSection(id) {
+  console.log("Showing section:", id);
+  const sections = document.querySelectorAll('.content-section');
+  sections.forEach(section => section.classList.remove('active'));
+  const target = document.getElementById(id);
+  if (target) {
+    target.classList.add('active');
+  } else {
+    console.warn("No section found with id:", id);
+  }
+}
+
+
+
+    </script>
+    
+  
+</body>
+</html>

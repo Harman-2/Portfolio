@@ -1,0 +1,241 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: hsl(188, 71%, 22%);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #a3d2ca;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    color: #004080;
+    margin-bottom: 0.5rem;
+    text-decoration-line: underline;
+    text-decoration-color: #004080;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }  
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #004080;
+    text-decoration: none;
+  }
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+  }
+  
+  body.dark-mode header {
+    background-color: #333;
+  }
+  
+  body.dark-mode nav a {
+    color: #f1f1f1;
+  }
+  
+  body.dark-mode nav a:hover {
+    color: #add8e6;
+  }
+  
+  #theme-toggle {
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  body.dark-mode #theme-toggle {
+    background-color: #000000;
+    color: white;
+  }
+  #intro-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000; /* or any color you like */
+    color: white (255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    z-index: 1000;
+  }
+  .hello-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center all content horizontally */
+    gap: 1rem; /* space between images and text */
+  }
+  
+  .side-image {
+    width: 100px;  /* adjust size as needed */
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .left-image {
+    margin-right: 1.5rem;
+  }
+  
+  .right-image {
+    margin-left: 1.5rem;
+  }
+  
+  .hello-wrapper h2 {
+    margin: 0;  /* remove extra spacing */
+  }
+  
+  .intro-content {
+    text-align: center;
+    animation: fadeIn 2.5s ease;
+
+    .greeting {
+        font-size: 2.4rem;
+        color: #ffcc00;
+      }
+      
+      .passion {
+        font-size: 2.2rem;
+        color: #00ffff;
+      }
+      
+      .hobby {
+        font-size: 2.2rem;
+        color: #ff99cc;
+      }
+
+      .name {
+        font-size: 2.2rem;
+        color: #449347;
+      }
+      
+  }
+  .purple{
+    color: blueviolet;
+  }
+  .highlight {
+    background-color: lightskyblue; /* or any color you like */
+    font-weight: bold;
+    /* You can also add underline, color, etc. */
+  }
+  
+  #element{
+    color: rgb(170, 107, 228);
+    font-weight: bold;
+  }
+  /* Hide all content sections by default */
+.content-section {
+  display: none;
+  font-size: 24px;
+}
+
+/* Show the active section */
+.content-section.active {
+  display: block;
+}
+
+/* Optional: Style the nav */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold
+  font-size 18px;
+}
+
+nav li a:hover {
+  background-color: #ccc;
+}
+
+  
+  #intro-screen button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a3d2ca;
+    border: none;
+    font-weight: bold;
+    font-size:large
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #intro-screen button:hover {
+    background-color: #ffffff;
+    color: #00804d;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  
